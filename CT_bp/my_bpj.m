@@ -25,7 +25,7 @@ for ith = 1:nth %backproject each projection angle
   if mov
     imagesc(B);axis image;colormap gray;
     title('Backprojection');axis off;
-    fname = sprintf('output%sbp_%4d.png',filesep,ith);
+    fname = sprintf('output%sbp_%d.png',filesep,ith);
     saveas(gcf,fname);
 %     pause(0.0001);
   end

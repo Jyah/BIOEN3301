@@ -17,5 +17,5 @@ figure;
 imagesc(sinob);axis image;colormap gray;
 title('Filtered Sinogram');
 %% back projection
-FB = my_bpj(sinob,theta,1);
+FB = my_bpj(sinob,theta,0);
 
